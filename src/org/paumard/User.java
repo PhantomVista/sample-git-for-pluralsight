@@ -14,13 +14,15 @@ public class User {
 
     @Override
     public String toString() {
-        return "User [name=" + name + "]";
+        return "User [name=" + name + ", age=" + age + "]";
     }
 
     public int getAge() {
         return age;
     }
 
+    
+    
     public void setAge(int age) {
         this.age = age;
     }
